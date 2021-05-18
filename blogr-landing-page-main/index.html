@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./components/media.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="mynav" class="nav-transparent">
+        <h1 class="logo-nav">Blogr</h1>
+        <button class="icon-hamburguer" id="bt-nav">
+            <img src="./images/icon-hamburger.svg">
+        </button>
+        <div class="nav__content" id="nav-content">
+            <ul class="c-dropdown" id="c-dropdown">
+                <li class="c-dropdown__item">
+                    <a>Product
+                        <img src="./images/icon-arrow-light.svg" class="icon-arrow">
+                    </a>
+                    <ul class="c-dropdown__submenu" id="1">
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Contact</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Newsletter</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Linkedin</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-dropdown__item">
+                    <a>Company
+                        <img src="./images/icon-arrow-light.svg" class="icon-arrow">
+                    </a>
+                    <ul class="c-dropdown__submenu">
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Contact</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Newsletter</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Linkedin</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-dropdown__item">
+                    <a>Connect
+                        <img src="./images/icon-arrow-light.svg" class="icon-arrow">
+                    </a>
+                    <ul class="c-dropdown__submenu">
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Contact</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Newsletter</a>
+                        </li>
+                        <li class="c-dropdown__submenu-item">
+                            <a href="/">Linkedin</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <button>Login</button>
+                <button class="button-bg-white">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="square">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container-header">
+            <div>
+                <h1>A modern publishing platform</h1>
+            </div>
+            <div>
+                <p>Grow your audience and build your online brand</p>
+            </div>
+            <div>
+                <button class="button-bg-white">Start for Free</button>
+                <button class="button-bg-transparent">Learn More</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-main">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <h1>Designed for the future</h1>
+                    <div class="col">
+                        <div>
+                            <h2>Introducing an extensible editor</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus, nibh in sagittis aliquam, justo dui vehicula es ac ullamcorper orci justo sed neque. Etiam bibendum volutpat ante et sollicitudin. Cras viverra tellus
+                                sed odio auctor imperdiet. Aenean quis molestie mauris nec consequat nisi. Proin nec mattis sapien, scelerisque rhoncus lacus.</p>
+                        </div>
+                        <div>
+                            <h2>Introducing an extensible editor</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus, nibh in sagittis aliquam, justo dui vehicula es ac ullamcorper orci justo sed neque. Etiam bibendum volutpat ante et sollicitudin. Cras viverra tellus
+                                sed odio auctor imperdiet. Aenean quis molestie mauris nec consequat nisi. Proin nec mattis sapien, scelerisque rhoncus lacus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col__img-editor"></div>
+        </div>
+        <div class="col__img-phones">
+            <img src="./images/illustration-phones.svg" class="col__phones-img" alt="phones">
+        </div>
+        <div class="row row__phones">
+            <div class="col__img-patternCircle"></div>
+            <div class="content__right">
+                <div class="col col__phones">
+                    <h1>State of the Art Infrastructure</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus, nibh in sagittis aliquam, justo dui vehicula es ac ullamcorper orci justo sed neque. Etiam bibendum volutpat ante et sollicitudin. Cras viverra tellus sed odio
+                        auctor imperdiet. Aenean quis molestie mauris nec consequat nisi. Proin nec mattis sapien, scelerisque rhoncus lacus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col__img-laptop"></div>
+            <div class="content__right">
+                <div class="col">
+                    <div>
+                        <h2>Free, open, simple</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus, nibh in sagittis aliquam, justo dui vehicula es ac ullamcorper orci justo sed neque. Etiam bibendum volutpat ante et sollicitudin. Cras viverra tellus sed
+                            odio auctor imperdiet. Aenean quis molestie mauris nec consequat nisi. Proin nec mattis sapien, scelerisque rhoncus lacus.</p>
+                    </div>
+                    <div>
+                        <h2>Powerful tooling</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus, nibh in sagittis aliquam, justo dui vehicula es ac ullamcorper orci justo sed neque. Etiam bibendum volutpat ante et sollicitudin. Cras viverra tellus sed
+                            odio auctor imperdiet. Aenean quis molestie mauris nec consequat nisi. Proin nec mattis sapien, scelerisque rhoncus lacus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row__footer">
+                <h1 class="logo-nav">Blogr</h1>
+                <ul>
+                    <li>
+                        <h3 class="subtitle">
+                            Product
+                        </h3>
+                    </li>
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Marketplace</li>
+                    <li>Features</li>
+                    <li>Integrations</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3 class="subtitle">
+                            Company
+                        </h3>
+                    </li>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3 class="subtitle">
+                            Connect
+                        </h3>
+                    </li>
+                    <li>Contact</li>
+                    <li>Newsletter</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://arreys.github.io">Arthur Reis</a>.
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+</html>

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: overpass, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+:root {
+    /* ### Primary */
+    --light-red: hsl(356, 100%, 66%);
+    --very-light-red: hsl(355, 100%, 74%);
+    --very-dark-desaturated-blue: hsl(237, 23%, 32%);
+    --very-dark-blue: hsl(208, 49%, 24%);
+    --very-dark-gray-blue: hsl(237, 17%, 21%);
+    /* ### Neutral */
+    --grayish-blue: hsl(240, 2%, 79%);
+    --very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --very-dark-black-blue: hsl(240, 10%, 16%);
+    /* ### Gradient */
+    --very-light-red-mobile: hsl(13, 100%, 72%);
+    --light-red-mobile: hsl(353, 100%, 62%);
+}
+
+
+/* BUTTONS */
+
+button {
+    background: none;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 40px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.button-bg-white {
+    background: white;
+    color: var(--light-red-mobile);
+    font-weight: 600;
+}
+
+.button-bg-transparent {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 19px;
+    font-weight: 600;
+}
+
+.button-bg-white:hover {
+    background: var(--very-light-red);
+    color: white;
+}
+
+.button-bg-transparent:hover {
+    background: white;
+    color: var(--light-red-mobile);
+}
+
+
+/* ---------- */
+
+
+/* CONTAINER */
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+/* ---------- */
+
+
+/* ROW */
+
+.row {
+    width: 80%;
+    height: 980px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow-x: visible;
+    color: var(--very-dark-blue);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.content__right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.content h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.col div {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.col div p {
+    margin: 20px 0px 20px 0px;
+    font-weight: 300;
+    color: var(--very-dark-grayish-blue);
+}
+
+.col__img-editor {
+    position: absolute;
+    top: 40px;
+    left: 65%;
+    height: 882px;
+    width: 925px;
+    background-image: url(./images/illustration-editor-desktop.svg);
+}
+
+
+/* ---------- */
+
+
+/* ROW MOBILE */
+
+.row__phones {
+    overflow-y: hidden;
+    position: relative;
+    background-color: var(--very-dark-gray-blue);
+    height: 400px;
+    width: 100%;
+    border-radius: 0px 80px 0px 80px;
+    color: white;
+}
+
+.row__phones .square {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    top: -245px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: var(--very-dark-desaturated-blue);
+}
+
+.col__phones {
+    width: 50%;
+    padding-right: 100px;
+    color: var(--grayish-blue);
+}
+
+.col__phones h1 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.col__img-phones {
+    position: relative;
+    width: 100%;
+}
+
+.col__phones-img {
+    position: absolute;
+    top: -70px;
+    left: 150px;
+    z-index: 10;
+}
+
+.col__img-patternCircle {
+    position: absolute;
+    top: -469px;
+    left: -221px;
+    width: 1014px;
+    height: 1018px;
+    background-image: url(./images/bg-pattern-circles.svg);
+}
+
+
+/* ---------- */
+
+
+/* ROW LAPTOP */
+
+.col__img-laptop {
+    position: absolute;
+    height: 786px;
+    width: 974px;
+    top: 54px;
+    right: 67%;
+    background-image: url(./images/illustration-laptop-desktop.svg);
+}
+
+
+/* ---------- */

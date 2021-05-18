@@ -1,0 +1,170 @@
+@media (max-width: 1345px) {
+    .col__phones-img {
+        left: 0px;
+    }
+    .content__right {
+        z-index: 11;
+    }
+}
+
+@media (max-width: 1037px) {
+    .row__phones {
+        height: auto;
+    }
+    .row__phones .content__right {
+        text-align: center;
+        justify-content: center;
+        margin: 410px 0px 50px 0px;
+    }
+    .col__phones-img {
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -18%)
+    }
+    .col__phones {
+        padding: 0;
+    }
+}
+
+@media (max-width: 772px) {
+    #bt-nav {
+        display: block;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    nav .nav__content {
+        position: absolute;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        width: 90% !important;
+        top: 90px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        border-radius: 5px;
+        background: white;
+        color: var(--very-dark-blue);
+    }
+    .nav__content ul {
+        margin: 15px 0px 15px 0px;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.702);
+        padding: 10px;
+        font-size: 1.2rem !important;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .nav__content ul li {
+        display: flex;
+        width: 90%;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__content div {
+        display: flex;
+        margin: 0px 0px 15px 0px;
+        flex-direction: column;
+    }
+    .c-dropdown__submenu {
+        background: var(--grayish-blue);
+        box-shadow: none;
+        top: 0px;
+        left: 0px;
+        transform: translateX(0%);
+    }
+    .c-dropdown__submenu-item a {
+        text-decoration: none;
+        color: var(--very-dark-blue);
+    }
+    .nav__content div button {
+        background: transparent;
+        color: var(--very-dark-blue);
+        font-size: 1.2rem;
+        padding: 9px 45px;
+    }
+    .nav__content div .button-bg-white {
+        background: linear-gradient(to right, var(--very-light-red-mobile), var(--light-red-mobile));
+        color: white;
+    }
+    .container-header {
+        margin: 0px 25px 0px 25px;
+    }
+    .container-header h1 {
+        font-size: 2.1rem;
+        margin-bottom: 10px;
+    }
+    .container-header p {
+        font-size: 1rem;
+    }
+    .row {
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .col {
+        width: 100%;
+    }
+    .col div {
+        width: 100%;
+        text-align: center;
+    }
+    .content {
+        align-items: center;
+        padding-top: 386px;
+    }
+    .col__img-patternCircle {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        width: 1014px;
+        height: 1018px;
+        background-image: url(../images/bg-pattern-circles.svg);
+    }
+    .col__img-editor {
+        position: absolute;
+        width: 330px;
+        height: 331px;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 12%);
+        background: no-repeat center url(../images/illustration-editor-mobile.svg);
+    }
+    .col__phones-img {
+        width: 350px;
+        height: 365px;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+    .row__phones .content__right {
+        margin-top: 190px;
+    }
+    .content__right {
+        margin-top: 250px;
+        justify-content: center;
+    }
+    .col__phones {
+        margin: 0px 25px 0px 25px;
+    }
+    .col__img-laptop {
+        position: absolute;
+        width: 330px;
+        height: 343px;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -36%);
+        background: no-repeat center url(../images/illustration-laptop-mobile.svg);
+    }
+    .row__footer {
+        justify-content: center !important;
+    }
+    .row__footer ul {
+        width: 100%;
+        text-align: center;
+    }
+}

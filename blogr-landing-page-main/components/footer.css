@@ -1,0 +1,35 @@
+footer {
+    border-radius: 0px 80px 0px 0px;
+    background-color: var(--very-dark-black-blue);
+}
+
+.row__footer {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    width: 60%;
+    padding: 50px 0px 100px 0px;
+}
+
+.row__footer ul {
+    margin: 30px;
+    list-style: none;
+}
+
+.row__footer ul li {
+    margin: 5px;
+    font-size: .8rem;
+    color: var(--grayish-blue);
+    cursor: pointer;
+}
+
+.row__footer ul li:hover {
+    color: white
+}
+
+.subtitle {
+    color: white;
+    margin-bottom: 20px;
+}
